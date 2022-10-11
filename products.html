@@ -1,29 +1,453 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
-      crossorigin="anonymous"
-    />
-    <title>Shopping Website</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    
+      <!-- Bootstrap core CSS -->
+  
+
+  <!-- Custom styles for this template -->
+ 
+  <link rel="icon" href="images/logo.png" type="image/icon png">
+
+    <title>Welcome to our shoping site</title>
+    
+    <style>
+      .text{
+        padding-top: 110px;
+        padding-bottom: 30px;
+        font-style: italic;
+        font-size: 55px ;
+      }
+      .navbar-brand{ 
+        padding-left: 15px;
+      }  
+      .image{
+          position:relative; left: 3px; 
+        
+      } 
+
+
+    </style>
   </head>
   <body>
-    <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <h2>It Is The Products Page!</h2>
+     <!-- Navbar -->
+     <nav class="navbar navbar-expand-lg navbar-dark bg-dark  fixed-top">
+      <div class="container-fluid">
+        <img src="/images/logo.png" class="image" width="41px" height="50px">
+        <a class="navbar-brand" href="index.html">Shudh Puja Samagri Ghar</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="About.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="Products.html">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Contact.html">Contact Us</a>
+            </li>
+          </ul>
         </div>
       </div>
+    </nav>
+  <!-- Navbar -->
+
+    <div class="text">
+      <center>Products</center>
     </div>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
-      crossorigin="anonymous"
-    ></script>
+ 
+     <div class="container" my-4>
+      <div class="row mb-2">
+        <div class="col-md-6">
+          <div
+            class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+              <h3 class="mb-0">Incense Sticks</h3>
+              <br> 
+              <p class="card-text mb-auto"> All types of Incense Sticks from all over India are available here ! Many different Fragrances are available with us. With its aroma it will make you feel fresh.
+
+                </p>
+            </div>
+            <div class="col-md-5">
+              <img class="img-fluid" width="200" height="250" src="images/incense stick.jpg" >
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div
+            class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+              <h3 class="mb-0">Kapoor</h3>                                                                  <br>
+              <p class="mb-auto">Best kapoor for all pooja rituals; According to traditional beliefs, by the use of camphor in worship, gods and goddesses gets amused.</p>
+            </div>
+            <div class="col-md-5">
+              <img class="bd-placeholder-img" width="210" height="210" src="images/kapoor.jpg" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row mb-2">
+        <div class="col-md-6">
+          <div
+            class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+              <h3 class="mb-0">Dhoop</h3>
+              <br>
+              <p class="card-text mb-auto"> Ancient literature states that burning dhoop purifies the air surrounding us and helps in building Ozone layer. It relieves stress, depression and anxiety. Best premium quality dhoop are available with us!!
+                </p>
+            </div>
+            <div class="col-md-5">
+              <img class="bd-placeholder-img" width="200" height="250" src="images/dhoop.png" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div
+            class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+              <h3 class="mb-0">Geela/Sukha Nariyal</h3>
+              <br>
+              <p class="mb-auto"> Both Geela and Sukha nariyal are available. 
+                </p>
+            </div>
+            <div class="col-md-5">
+              <img class="bd-placeholder-img" width="200" height="250" src="images/nariyal.jpg">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row mb-2">
+        <div class="col-md-6">
+          <div
+            class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+              <h3 class="mb-0">Gomutra</h3>
+              <br>
+              <p class="card-text mb-auto">According to Ayurveda, Gomutra (cow urine) can cure leprosy, fever, peptic ulcer, liver ailments, kidney disorders, Asthma, certain allergies, skin problems like Psoriasis, anaemia and even cancer. We provide you best quality Gomutra.
+                </p>
+            </div>
+            <div class="col-md-5">
+              <img class="bd-placeholder-img" width="200" height="250" src= "images/gomutra.jpg" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div
+            class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+              <h3 class="mb-0">Ghee</h3>
+              <br>
+              Best desi ghee for Puja. Different packaging available as per your need.
+              <br>
+              <p class="mb-auto">
+                </p>
+            </div>
+            <div class="col-md-5">
+              <img class="bd-placeholder-img" width="200" height="200" src="images/ghee.jpg" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row mb-2">
+        <div class="col-md-6">
+          <div
+            class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+              <h3 class="mb-0">Drone and Plates</h3>
+              <br>
+              <p class="card-text mb-auto"> Paper plates and drone are available for your need. Steel Plates are also available.
+                </p>
+            </div>
+            <div class="col-md-5">
+              <img class="bd-placeholder-img" width="200" height="250" src="images/plates.png" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div
+            class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+              <h3 class="mb-0">Rose Water</h3>
+              <br>
+              <p class="mb-auto">Good brand rose water are waiting for you which will make you feel fresh and glow your skin.
+                </p>
+            </div>
+            <div class="col-md-5">
+              <img class="bd-placeholder-img" width="200" height="250" src="images/rose water.jpg" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row mb-2">
+        <div class="col-md-6">
+          <div
+            class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+              <h3 class="mb-0">Yantra</h3>
+              <br>
+              <p class="card-text mb-auto">Yantras are used for the worship of deities in temples or at home; as an aid in meditation; used for the benefits given by their supposed occult powers based on Hindu astrology and tantric texts.We provide you with best yantra
+                </p>
+            </div>
+            <div class="col-md-5">
+              <img class="bd-placeholder-img" width="200" height="250" src="images/yantra.jpg" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div
+            class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+              <h3 class="mb-0">Handmade Ghee fullbatti</h3>
+              <br>
+              <p class="mb-auto">We provide you good quality ghee fullbatti which is handmade.We have different packaging of it as per your choice.
+                </p>
+            </div>
+            <div class="col-md-5">
+              <img class="bd-placeholder-img" width="200" height="250" src="images/ghee fulbati.jpg" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row mb-2">
+        <div class="col-md-6">
+          <div
+            class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+              <h3 class="mb-0">Shank</h3>
+              <br>
+              <p class="card-text mb-auto">We have different sizes of shank from small to big.
+                </p>
+            </div>
+            <div class="col-md-5">
+              <img class="bd-placeholder-img" width="200" height="250" src="images/shank.jpg" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div
+            class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+              <h3 class="mb-0">Mala</h3>
+              <br>
+              <p class="mb-auto">Different sizes and colours mala are available. Best brand and quality mala are there for you!!
+                </p>
+            </div>
+            <div class="col-md-5">
+              <img class="bd-placeholder-img" width="200" height="250" src="images/mala.jpg" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row mb-2">
+        <div class="col-md-6">
+          <div
+            class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+              <h3 class="mb-0">Rudraksh</h3>
+             <br>
+              <p class="card-text mb-auto">From low rate to high rate premium Rudraksh are also there for you with there tested proof card.
+                </p>
+            </div>
+            <div class="col-md-5">
+              <img class="bd-placeholder-img" width="200" height="200" src="images/rudraksh.jpg" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div
+            class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+              <h3 class="mb-0">Puja Thali</h3>
+              <br>
+              <p class="mb-auto">Beautiful Puja thali are waiting for you so you can use it in your puja. 
+                </p>
+            </div>
+            <div class="col-md-5">
+              <img class="bd-placeholder-img" width="200" height="200" src="images/puja thali.jpg" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="row mb-2">
+        <div class="col-md-6">
+          <div
+            class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+              <h3 class="mb-0"></h3>
+              <br>>
+              <p class="card-text mb-auto">A programming language is a formal language comprising a set of instructions that produce various kinds of output. Programming languages are used in computer programming to implement algorithms. Most programming languages consist of instructions for computers.
+                </p>
+            </div>
+            <div class="col-auto d-none d-lg-block">
+              <img class="bd-placeholder-img" width="200" height="250" src="thumb1.jpg" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div
+            class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+              <h3 class="mb-0">Web Designing</h3>
+              <div class="mb-1 text-muted">Nov 11</div>
+              <p class="mb-auto">Web design refers to the design of websites that are displayed on the internet. It usually refers to the user experience aspects of website development rather than software development.
+                </p>
+            </div>
+            <div class="col-auto d-none d-lg-block">
+              <img class="bd-placeholder-img" width="200" height="250" src="thumb3.jpg" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row mb-2">
+        <div class="col-md-6">
+          <div
+            class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+              <h3 class="mb-0">Programming Languages</h3>
+              <div class="mb-1 text-muted">Nov 12</div>
+              <p class="card-text mb-auto">A programming language is a formal language comprising a set of instructions that produce various kinds of output. Programming languages are used in computer programming to implement algorithms. Most programming languages consist of instructions for computers.
+                </p>
+            </div>
+            <div class="col-auto d-none d-lg-block">
+              <img class="bd-placeholder-img" width="200" height="250" src="thumb1.jpg" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div
+            class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+              <h3 class="mb-0">Web Designing</h3>
+              <div class="mb-1 text-muted">Nov 11</div>
+              <p class="mb-auto">Web design refers to the design of websites that are displayed on the internet. It usually refers to the user experience aspects of website development rather than software development.
+                </p>
+            </div>
+            <div class="col-auto d-none d-lg-block">
+              <img class="bd-placeholder-img" width="200" height="250" src="thumb3.jpg" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row mb-2">
+        <div class="col-md-6">
+          <div
+            class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+              <h3 class="mb-0">Programming Languages</h3>
+              <div class="mb-1 text-muted">Nov 12</div>
+              <p class="card-text mb-auto">A programming language is a formal language comprising a set of instructions that produce various kinds of output. Programming languages are used in computer programming to implement algorithms. Most programming languages consist of instructions for computers.
+                </p>
+            </div>
+            <div class="col-auto d-none d-lg-block">
+              <img class="bd-placeholder-img" width="200" height="250" src="thumb1.jpg" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div
+            class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+              <h3 class="mb-0">Web Designing</h3>
+              <div class="mb-1 text-muted">Nov 11</div>
+              <p class="mb-auto">Web design refers to the design of websites that are displayed on the internet. It usually refers to the user experience aspects of website development rather than software development.
+                </p>
+            </div>
+            <div class="col-auto d-none d-lg-block">
+              <img class="bd-placeholder-img" width="200" height="250" src="thumb3.jpg" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row mb-2">
+        <div class="col-md-6">
+          <div
+            class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+              <h3 class="mb-0">Programming Languages</h3>
+              <div class="mb-1 text-muted">Nov 12</div>
+              <p class="card-text mb-auto">A programming language is a formal language comprising a set of instructions that produce various kinds of output. Programming languages are used in computer programming to implement algorithms. Most programming languages consist of instructions for computers.
+                </p>
+            </div>
+            <div class="col-auto d-none d-lg-block">
+              <img class="bd-placeholder-img" width="200" height="250" src="thumb1.jpg" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div
+            class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+              <h3 class="mb-0">Web Designing</h3>
+              <div class="mb-1 text-muted">Nov 11</div>
+              <p class="mb-auto">Web design refers to the design of websites that are displayed on the internet. It usually refers to the user experience aspects of website development rather than software development.
+                </p>
+            </div>
+            <div class="col-auto d-none d-lg-block">
+              <img class="bd-placeholder-img" width="200" height="250" src="thumb3.jpg" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row mb-2">
+        <div class="col-md-6">
+          <div
+            class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+              <h3 class="mb-0">Learn JavaScript</h3>
+              <div class="mb-1 text-muted">Nov 12</div>
+              <p class="card-text mb-auto">JavaScript is a dynamic computer programming language. It is lightweight and most commonly used as a part of web pages, whose implementations allow client-side script to interact with the user and make dynamic pages. It is an interpreted programming language with object-oriented capabilities.
+               </p>
+            </div>
+            <div class="col-auto d-none d-lg-block">
+              <img class="bd-placeholder-img" width="200" height="250" src="thumb4.jpg" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div
+            class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+              <h3 class="mb-0">Top Programming languages in 2020 to Learn</h3>
+              <div class="mb-1 text-muted">Nov 11</div>
+              <p class="mb-auto">1.JavaScript (71% of respondents are on the hunt for candidates with this skill)
+                2.Java (57%)
+                3.C# (53%) 
+                </p>
+            </div>
+            <div class="col-auto d-none d-lg-block">
+              <img class="bd-placeholder-img" width="200" height="250" src="thumb2.jpg" alt="">
+            </div>
+          </div>
+        </div> -->
+      </div>
+    </div>
+  
+
+    <footer class="container">
+      <p class="float-right"><a href="#">Back to top</a></p>
+      <p>© 2021-2022 Shudh Puja Samagari Ghar, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+    </footer>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
+    -->
   </body>
 </html>
